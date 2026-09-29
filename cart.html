@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Rka stores Cart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+           <header> 
+                          <!--=========Navigation bar===========-->
+                     <nav class="navbar">
+                           <div class="logo">
+                               <h2><b>RKA</b>&nbsp; STORE</h2>
+                           </div>
+
+                          <div class="navmenu">
+                              <ul>
+                                  <li><a href="web project.html">Home</a></li>
+                                  <li><a href="categories.html">Categories</a></li>
+                                  <li><a href="#about">About</a></li>
+                                  <li><a href="#contactus">Contact Us</a></li>
+                             </ul>
+ 
+                               <div class="searchbox">
+                                   <a href="login_register/login.php"><button type="button" class="log">Login</button></a>
+                               <!--- <input type="search" class="search" placeholder="search here">
+                                <button type="submit"><img src="logos/search.png"></button>-->
+                               </div>
+                         </div>
+                    </nav>
+          </header>
+
+            <!--==========cart items details================-->
+            <div class="cart-page">
+                <div class="cart-header">
+                    <span>Products</span>
+                    <span>Price</span>
+                    <span>Quantity</span>
+                    <span>Total</span>
+                    <span>Remove</span>
+                </div>
+
+                <div class="cart-items">
+                   <div class="cart-item">
+                        <div class="product">
+                            <img src="books/book1.png">
+                            <div class="item-detail">
+                                <p>A book of anytime knowledge</p>
+                            </div>
+                        </div>
+                        <span class="price">Rs.1500</span>
+                        <div class="quantity"><input type="number" value="1" min="1"></div>
+                        <span class="total-price">Rs.1500</span>
+                        <button class="remove">Delete</button>
+                    </div>
+                </div>
+
+                 <div class="cart-total">
+                    <h3>Cart Total</h3>
+                    <p>Subtotal<span class="subtotal">Rs.0</span></p>
+                    <p>Delivery Fee<span>Free</span></p>
+                    <p>Grand Total<span class="grand-total">Rs.0</span></p>
+                    <button class="btn">proceed to checkout</button>
+                 </div>  
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <script src="products.js"></script>
+            <script src="script.js"></script>
+
+
+    </body>
+</html>
